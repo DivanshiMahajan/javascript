@@ -54,6 +54,7 @@
         border-radius: 50%;
         outline: none;
         cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
       }
 
       .calculator button.operator {
@@ -69,6 +70,14 @@
         grid-column: 3 / span 2;
         background-color: #4caf50;
       }
+      .calculator button:hover {
+    background-color: #999;
+  }
+
+  /* Button Press Animation */
+  .calculator button:active {
+    transform: scale(0.95);
+  }
     </style>
   </head>
   
